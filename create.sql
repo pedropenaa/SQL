@@ -14,7 +14,8 @@ CREATE TABLE tb_pessoa(
 );
 -- Salvar Inclusão:
 INSERT INTO tb_pessoa (nme_pessoa, end_pessoa, tel_pessoa, placa_carro, cpf_pessoa, model_veiculo)
-values ('Pedro Henrique Pena Neves', 'quadra 6 conj c casa 3',' 61 984385678',' ped - 0987','05334899111', 'gol');
+values ('Pedro Henrique Pena Neves', 'quadra 6 conj c casa 3',' 61 984385678', ' ped - 0987','05334899111', 'gol');
+        ('Karina Pena Barbosa',      'quadra 6 conj c casa 3',' 61 992622989', ' kar - 2989','12345677501', 'honda');
 
 -- Pesquisar:
 SELECT * FROM tb_pessoa WHERE nme_pessoa LIKE CONCAT('%', 'Pedro', '%');
